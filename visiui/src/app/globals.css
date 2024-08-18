@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.visiui-label {
+    color: white;
+}
+
+.visiui-textfield {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(0, 66, 87);
+    background-color: transparent;
+    color: white;
+}
+
+.visiui-textfield:focus {
+    border-bottom: 1px solid rgb(95, 192, 221);
+}
