@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import Endpoint from "@/data-components/Endpoint";
 import TextField from "@/ui-components/TextField";
 import Label from "@/ui-components/Label";
