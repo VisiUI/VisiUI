@@ -2,7 +2,7 @@ type Destructor = () => any;
 type Handler<T> = (value: T) => Destructor | undefined | void;
 type Handle<T> = {
     handler: Handler<T>
-    dispose?: Destructor | undefined | void
+    dispose: Destructor | undefined | void
 }
 
 class Binding<T> {

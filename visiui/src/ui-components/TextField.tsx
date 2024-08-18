@@ -3,7 +3,7 @@
 import Endpoint from '@/data-components/Endpoint';
 import React, { useEffect, useMemo, useState } from 'react'
 
-export default function TextField(props: { value: Endpoint<string> }) {
+export default function TextField(props: { readonly value: Endpoint<string> }) {
   const binding = useMemo(props.value.bind, []);
   let [text, setText] = useState("");
   useEffect(() => binding.onSet(setText), []);
