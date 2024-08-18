@@ -25,6 +25,6 @@ The main goal of **VisiUI** is to provide a reliable set of tools for React deve
 - Desktop: [VisiUI Home.pdf](https://github.com/user-attachments/files/16647613/VisiUI.Home.pdf)
 - Mobile: [VisiUI Home for Phones.pdf](https://github.com/user-attachments/files/16647614/VisiUI.Home.for.Phones.pdf)
 
-### SVG:
-- Dekstop: ![VisiUI Home](https://github.com/user-attachments/assets/055ccc3a-c514-491d-a21d-41b97a0adb33)
-- Mobile: ![VisiUI Home for Phones](https://github.com/user-attachments/assets/704397b5-0af0-43ae-bf04-b2fcca247cb2)
+### PNG:
+- Dekstop: ![VisiUI Home](https://github.com/user-attachments/assets/fd47265e-8a36-497a-a764-22e5569b8623)
+- Mobile: ![VisiUI Home for Phones](https://github.com/user-attachments/assets/ae73c0bb-e731-4a2b-b276-736eee652c31)
