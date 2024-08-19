@@ -47,5 +47,5 @@ Thank you for your interest in contributing to **VisiUI**! VisiUI is an open-sou
 
 - **Title and Description**: When creating a pull request (PR), provide a descriptive title and a clear explanation of what was done and why.
 - **Small and Focused PRs**: Keep PRs small and focused on a single change or a group of related changes. This makes code review easier.
-- **Link Issues**: If your PR resolves an open issue, remember to link it using the Fixes #issue_number syntax.
+- **Link Issues**: If your PR resolves an open issue, remember to link it using the `Fixes #issue_number` syntax.
 - **Reviews and Feedback**: Be open to reviews and feedback. Maintaining code quality is a shared goal.
