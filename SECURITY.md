@@ -2,13 +2,14 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+The following table outlines the versions of VisiUI that are currently supported with security updates. Please ensure you are using a supported version to receive the latest security patches and improvements.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.0   | ⚙ |
+| 1.0x     | ⚙ Working On  |
 
 ## Reporting a Vulnerability
 
-If you need to report a vulnerability, go in issues and create a new detailed issue with the label "Vulnerability"
+If you discover a vulnerability in VisiUI, please report it by creating a new issue in the project's issue tracker. Make sure to include as much detail as possible and label the issue as "Vulnerability". This will help us address the problem promptly and ensure the security of the library.
+
+Thank you for helping us keep VisiUI safe and secure!
