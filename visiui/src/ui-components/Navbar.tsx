@@ -1,10 +1,9 @@
 "use client";
 
 import React from "react";
-import Image from 'next/image';
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button } from "@nextui-org/react";
 import ThemeSwitcher from "@/ui-components/ThemeSwitcher"; // Import the ThemeSwitcher component
-import Logo from "../../public/visiui1.png";
+import Logo from "./Logo";
 
 export default function Nav() {
   return (
@@ -15,7 +14,7 @@ export default function Nav() {
           {/* Logo aligned to the extreme left */}
           <NavbarBrand className="flex-shrink-0">
             <div className="flex items-center">
-              <Image src={Logo} alt="VisiUI" width={40} height={40} className="h-10 w-auto" />
+              <Logo />
               <span className="ml-3 text-xl font-bold">VisiUI</span>
             </div>
           </NavbarBrand>
@@ -25,17 +24,17 @@ export default function Nav() {
             <NavbarContent className="flex gap-6 lg:gap-32">
               <NavbarItem>
                 <Link className="text-sm lg:text-base hover:text-blue-600 transition-colors" href="#">
-                  Features
+                  Showcase
                 </Link>
               </NavbarItem>
               <NavbarItem>
                 <Link className="text-sm lg:text-base hover:text-blue-600 transition-colors" href="#">
-                  Customers
+                  Docs
                 </Link>
               </NavbarItem>
               <NavbarItem>
                 <Link className="text-sm lg:text-base hover:text-blue-600 transition-colors" href="#">
-                  Integrations
+                  Blog
                 </Link>
               </NavbarItem>
             </NavbarContent>
@@ -45,7 +44,7 @@ export default function Nav() {
           <NavbarContent className="flex-shrink-0 flex items-center gap-4">
             <ThemeSwitcher /> {/* Use the ThemeSwitcher component */}
             <NavbarItem className="hidden lg:flex">
-              <Link className="text-gray-600 hover:text-gray-900 transition-colors" href="#">
+              <Link className="text-gray-600 hover:text-blue-600 transition-colors" href="#">
                 Login
               </Link>
             </NavbarItem>
@@ -55,7 +54,6 @@ export default function Nav() {
               </Button>
             </NavbarItem>
           </NavbarContent>
-
         </div>
       </Navbar>
     </div>
