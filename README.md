@@ -3,8 +3,7 @@
 Slack: [Slack invite](https://join.slack.com/t/nuovaareadila-6ll7179/shared_invite/zt-2oge4h1vn-J18RupLnaPKbmgF_AnhuSw)
 
 ## Overview
-
-**VisiUI** is a collection of reusable and customizable React components. This library is designed to simplify the creation of user interfaces in React applications, providing a set of pre-built components that can be easily imported and used in any project.
+The main goal of **VisiUI** is to provide a reliable set of tools for React developers, enhancing productivity and code quality. The library allows you to create cohesive and maintainable user interfaces, reducing the need to write repetitive code and ensuring greater consistency across different parts of the application.
 
 ### Key Features
 
@@ -16,6 +15,3 @@ Slack: [Slack invite](https://join.slack.com/t/nuovaareadila-6ll7179/shared_invi
 ## Installation
 
 Will add the possibility to use it with npm (and maybe yarn)
-
-## The Point of the Library
-The main goal of **VisiUI** is to provide a reliable set of tools for React developers, enhancing productivity and code quality. The library allows you to create cohesive and maintainable user interfaces, reducing the need to write repetitive code and ensuring greater consistency across different parts of the application.
