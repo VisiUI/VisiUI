@@ -5,20 +5,30 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 1. Fork the repository from https://github.com/VisiUI/VisiUI
 
 2. Clone your forked repository:
+
    ```bash
    git clone https://github.com/your-username/VisiUI.git
 
+   ```
+
 3. Navigate to the project directory:
-    ```bash
-    cd VisiUI
+
+   ```bash
+   cd VisiUI
+
+   ```
 
 4. Install the dependencies:
-    ```bash
-    npm Install
+
+   ```bash
+   npm Install
+
+   ```
 
 5. To start the project in your local server:
-    ```bash
-    npm run dev
+   ```bash
+   npm run dev
+   ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
