@@ -30,10 +30,10 @@ Thank you for your interest in contributing to **VisiUI**! VisiUI is an open-sou
 
 ### 1. Code Style
 
-- **Use Prettier and ESLint**: Ensure that your code follows the styling conventions used in the project. You can run linting and auto-formatting with:
+- **Use Prettier**: Ensure that your code follows the styling conventions used in the project. You can the auto-formatting with:
   ```bash
-  npm run lint
-  npm run format
+  npx prettier . --write
+  ```
 - **Comment your code**: Add helpful comments to explain the reasoning behind complex or non-obvious implementations.
 
 ## React Components
