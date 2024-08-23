@@ -1,3 +1,5 @@
+{
+  /** 
 import Endpoint from "@/data-components/Endpoint";
 import React, { useEffect, useMemo, useState } from "react";
 
@@ -16,4 +18,6 @@ export default function TextField(props: { readonly value: Endpoint<string> }) {
       onBlur={() => binding.set(text)}
     />
   );
+}
+  */
 }

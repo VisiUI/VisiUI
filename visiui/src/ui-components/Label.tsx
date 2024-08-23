@@ -1,3 +1,5 @@
+{
+  /**
 "use client";
 
 import Endpoint from "@/data-components/Endpoint";
@@ -11,4 +13,6 @@ export default function Label(props: { readonly value: Endpoint<string> }) {
   }, [props.value]);
 
   return <div className="visiui-label">{text}</div>;
+}
+  */
 }
