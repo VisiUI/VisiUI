@@ -17,7 +17,6 @@ export default function Nav() {
     <div className="mx-4 md:mx-2 lg:mx-4">
       <Navbar
         isBordered
-        variant="sticky"
         className={`shadow-lg h-16 bg-white text-gray-900 dark:bg-gray-900 dark:text-white`}
       >
         <div className="flex items-center justify-between w-full mx-2">

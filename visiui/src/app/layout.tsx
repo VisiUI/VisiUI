@@ -22,11 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={` ${inter.className}`}>
-        <ThemeProviders
-          attribute="class"
-          defaultTheme="dark" // Set default theme to dark
-          enableSystem // Allow system-based theme switching
-        >
+        <ThemeProviders>
           <main>{children}</main>
         </ThemeProviders>
       </body>

@@ -24,7 +24,10 @@ class Binding<T> {
   }
 
   onSet(handler: Handler<T>): Destructor {
-    let handle: Handle<T> = { handler };
+    let handle: Handle<T> = { 
+      handler, 
+      dispose: undefined // Inizializza dispose come undefined
+    };
     this.handles.push(handle);
     if (this.endpoint.initialized && this.endpoint.value)
       handle.dispose = handler(this.endpoint.value);
