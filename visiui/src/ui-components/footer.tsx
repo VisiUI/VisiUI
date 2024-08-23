@@ -20,9 +20,12 @@ const Footer = () => {
                 VisiUI
               </span>
             </a>
-            <span>
+            <span className="ml-4 mt-2">
               VisiUI is a collection of reusable and
-              <span className="block"> customizable React components</span>
+              <span className="block ml-4 mt-1">
+                {" "}
+                customizable React components
+              </span>
             </span>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -38,7 +41,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="/" className="hover:underline">
-                    Blogs
+                    Blog
                   </a>
                 </li>
               </ul>
@@ -82,34 +85,30 @@ const Footer = () => {
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2023{" "}
+            © 2024{" "}
             <a href="/" className="hover:underline">
               VisiUI™
             </a>
-            . All Rights Reserved.
+            All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             <a
-              href="#"
+              href="https://github.com/VisiUI/VisiUI"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
-                className="w-4 h-4"
+                className="w-5 h-5"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
-                viewBox="0 0 8 19"
+                viewBox="0 0 24 24"
               >
-                <path
-                  fillRule="evenodd"
-                  d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
-                  clipRule="evenodd"
-                />
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.111.793-.26.793-.577v-2.234c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.758-1.333-1.758-1.09-.745.082-.73.082-.73 1.205.085 1.84 1.236 1.84 1.236 1.07 1.834 2.809 1.304 3.495.997.107-.775.418-1.305.762-1.605-2.665-.305-5.466-1.335-5.466-5.931 0-1.31.467-2.381 1.235-3.221-.124-.303-.535-1.527.118-3.18 0 0 1.008-.322 3.3 1.23.957-.267 1.984-.399 3.005-.403 1.02.004 2.047.136 3.006.403 2.291-1.552 3.297-1.23 3.297-1.23.654 1.653.243 2.877.119 3.18.77.84 1.234 1.911 1.234 3.221 0 4.61-2.803 5.623-5.474 5.921.43.372.814 1.102.814 2.222v3.293c0 .319.191.694.801.576C20.565 21.796 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
               </svg>
-              <span className="sr-only">Facebook page</span>
+              <span className="sr-only">GitHub Page</span>
             </a>
             <a
-              href="#"
+              href="https://join.slack.com/t/visiui/shared_invite/zt-2oge4h1vn-J18RupLnaPKbmgF_AnhuSw"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <svg
@@ -129,7 +128,7 @@ const Footer = () => {
                   fill="#ffffff"
                 ></path>
               </svg>
-              <span className="sr-only">Custom Icon</span>
+              <span className="sr-only">Slack</span>
             </a>
 
             <a
@@ -150,25 +149,6 @@ const Footer = () => {
                 />
               </svg>
               <span className="sr-only">Twitter page</span>
-            </a>
-            <a
-              href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
-            >
-              <svg
-                className="w-4 h-4"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 .14a10 10 0 1 0 7.1 2.938A10 10 0 0 0 10 .14Zm4.834 6.212-4.987 7.661A.75.75 0 0 1 9 14.01l-2.847-2.856a.75.75 0 0 1 1.06-1.06l2.097 2.097 4.445-6.835a.75.75 0 1 1 1.26.801Z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              <span className="sr-only">Dribbble account</span>
             </a>
           </div>
         </div>

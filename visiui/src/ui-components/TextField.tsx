@@ -1,13 +1,11 @@
-"use client";
-
 import Endpoint from "@/data-components/Endpoint";
 import React, { useEffect, useMemo, useState } from "react";
 
 export default function TextField(props: { readonly value: Endpoint<string> }) {
-  const binding = useMemo(props.value.bind, []);
+  const binding = useMemo(() => props.value.bind, [props.value]); 
   const [text, setText] = useState("");
 
-  useEffect(() => binding.onSet(setText), []);
+  useEffect(() => binding.onSet(setText), [binding]);
 
   return (
     <input
