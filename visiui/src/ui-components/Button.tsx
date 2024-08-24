@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
 interface ButtonProps {
   text: string;
-  
-  type?: 'button' | 'submit' | 'reset';
-  
+
+  type?: "button" | "submit" | "reset";
+
   onClick?: () => void;
   onMouseEnter?: () => void;
   onMouseLeave?: () => void;
@@ -16,18 +16,18 @@ interface ButtonProps {
   border?: string;
   borderRadius?: string;
   fontSize?: string;
-  fontWeight?: 'normal' | 'bold' | 'bolder' | 'lighter' | number;
+  fontWeight?: "normal" | "bold" | "bolder" | "lighter" | number;
   width?: string;
   height?: string;
-  cursor?: 'pointer' | 'default' | 'not-allowed';
-  
+  cursor?: "pointer" | "default" | "not-allowed";
+
   disabled?: boolean;
 }
 
 const Button: React.FC<ButtonProps> = (props) => {
   const {
     text,
-    type = 'button',
+    type = "button",
     onClick,
     onMouseEnter,
     onMouseLeave,
@@ -42,7 +42,7 @@ const Button: React.FC<ButtonProps> = (props) => {
     width,
     height,
     cursor,
-    disabled = false
+    disabled = false,
   } = props;
 
   return (
@@ -63,7 +63,7 @@ const Button: React.FC<ButtonProps> = (props) => {
         fontWeight,
         width,
         height,
-        cursor: disabled ? 'not-allowed' : cursor,
+        cursor: disabled ? "not-allowed" : cursor,
         opacity: disabled ? 0.5 : 1,
       }}
     >

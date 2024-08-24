@@ -5,10 +5,10 @@ import Endpoint from "@/data-components/Endpoint";
 import Nav from "@/ui-components/Navbar";
 import Footer from "@/ui-components/footer";
 import "../app/globals.css";
-import {notFound} from "next/navigation"
+import { notFound } from "next/navigation";
 
 export function NotFoundCatchAll() {
-  notFound()
+  notFound();
 }
 
 const sampleValue = new Endpoint<string>({ value: "Edit me!" });
