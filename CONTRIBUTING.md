@@ -34,6 +34,7 @@ Thank you for your interest in contributing to **VisiUI**! VisiUI is an open-sou
   ```bash
   npx prettier . --write
   ```
+- **Check that everything works correctly**: Run ```npm run build```, ```npm run dev``` and ```npm run lint``` to ensure that your code hasn't introduced any errors.
 - **Comment your code**: Add helpful comments to explain the reasoning behind complex or non-obvious implementations.
 
 ## React Components
