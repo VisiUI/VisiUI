@@ -8,7 +8,7 @@ export default function NotFound() {
       <div className="notFoundTextContainer">
         <h1>404 - Page Not Found</h1>
         <p>
-          Sorry, the page you're looking for doesn't exist. You might have
+          Sorry, the page you&apos;re looking for doesn&apos;t exist. You might have
           entered an incorrect address, or the page may have been moved.
         </p>
         <Link href="/">
