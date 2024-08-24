@@ -5,6 +5,7 @@ import Endpoint from "@/data-components/Endpoint";
 import Nav from "@/ui-components/Navbar";
 import Footer from "@/ui-components/footer";
 import "../app/globals.css";
+import { Analytics } from "@vercel/analytics/react"
 
 const sampleValue = new Endpoint<string>({ value: "Edit me!" });
 
@@ -15,6 +16,8 @@ export default function Home() {
       {/* Main content */}
       <div className="flex flex-col items-center justify-center flex-grow text-gray-900 dark:text-white"></div>
       {/**<Footer /> */}
+
+      <Analytics />
     </div>
   );
 }
