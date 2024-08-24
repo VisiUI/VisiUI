@@ -1,0 +1,21 @@
+.notFoundContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; 
+}
+
+.notFoundContainer h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.notFoundContainer p {
+    width: auto;
+    margin-top: 20px;
+}
+
+.notFoundContainer {
+    background: linear-gradient(#DB00FF, #0D00FF);
+}
