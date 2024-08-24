@@ -19,7 +19,7 @@ export default function Home() {
       <Nav />
       {/* Main content */}
       <div className="flex flex-col items-center justify-center flex-grow text-gray-900 dark:text-white"></div>
-      <Footer />
+      {/**<Footer /> */}
     </div>
   );
 }
