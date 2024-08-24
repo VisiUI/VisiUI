@@ -53,3 +53,8 @@ Thank you for your interest in contributing to **VisiUI**! VisiUI is an open-sou
 
 ## The point of contributions for now
 For now, we are prioritizing the website, so contributions should focus on the VisiUI website.
+
+## Learn More
+- [NextJS Documentation](https://nextjs.org/docs)
+- [JavaScript Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [ReactJS Documentation](https://react.dev/learn)
