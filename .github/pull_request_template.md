@@ -10,3 +10,7 @@ _Add more context to describe the changes..._
 ### Checks
 - [ ] No errors
 - [ ] No Bugs
+- [ ] Ran the command ```npm run build```
+- [ ] Ran the command ```npm run lint```
+- [ ] Ran the command ```npm run dev```
+- [ ] Ran the command ```npx prettier . --write```
