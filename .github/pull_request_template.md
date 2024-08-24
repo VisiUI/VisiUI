@@ -13,3 +13,4 @@ _Add more context to describe the changes..._
 - [ ] Ran the command ```npm run build```
 - [ ] Ran the command ```npm run lint```
 - [ ] Ran the command ```npm run dev```
+- [ ] Ran the command ```npx prettier . --write```
