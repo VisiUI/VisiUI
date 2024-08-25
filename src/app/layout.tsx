@@ -12,6 +12,21 @@ export const metadata: Metadata = {
   icons: {
     icon: "/visiui3.png",
   },
+  openGraph: {
+    title: "VisiUI",
+    description:
+      "VisiUI provides reusable and customizable React components to simplify UI development.",
+    url: "https://visi-ui.vercel.app/",
+
+    images: [
+      {
+        url: "https://visi-ui.vercel.app/api/og",
+        width: 1200,
+        height: 630,
+        alt: "Hello, are you ready to start using VisiUI?",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

@@ -7,7 +7,7 @@ import Footer from "@/ui-components/footer";
 import "../app/globals.css";
 import { Analytics } from "@vercel/analytics/react"
 
-const sampleValue = new Endpoint<string>({ value: "Edit me!" });
+//const sampleValue = new Endpoint<string>({ value: "Edit me!" });
 
 export default function Home() {
   return (
