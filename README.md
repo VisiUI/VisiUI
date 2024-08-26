@@ -1,8 +1,11 @@
 # VisiUI
+
 ## Social
+
 Slack: [Slack invite](https://join.slack.com/t/nuovaareadila-6ll7179/shared_invite/zt-2oge4h1vn-J18RupLnaPKbmgF_AnhuSw)
 
 ## Overview
+
 The main goal of **VisiUI** is to provide a reliable set of tools for React developers, enhancing productivity and code quality. The library allows you to create cohesive and maintainable user interfaces, reducing the need to write repetitive code and ensuring greater consistency across different parts of the application.
 
 ### Key Features

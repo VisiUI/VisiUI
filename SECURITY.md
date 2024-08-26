@@ -4,9 +4,9 @@
 
 The following table outlines the versions of VisiUI that are currently supported with security updates. Please ensure you are using a supported version to receive the latest security patches and improvements.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 1.0x     | ⚙ Working On  |
+| Version | Supported     |
+| ------- | ------------- |
+| 1.0x    | ⚙ Working On |
 
 ## Reporting a Vulnerability
 

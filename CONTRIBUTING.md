@@ -5,9 +5,11 @@ Thank you for your interest in contributing to **VisiUI**! VisiUI is an open-sou
 ## Getting Started
 
 1. **Fork the Repository**
+
    - Fork the official VisiUI repository to your GitHub account.
 
 2. **Clone the Repository**
+
    - Clone your forked repository locally:
      ```bash
      git clone https://github.com/your-username/VisiUI.git
@@ -15,6 +17,7 @@ Thank you for your interest in contributing to **VisiUI**! VisiUI is an open-sou
      ```
 
 3. **Install Dependencies**
+
    - Once the repository is cloned, install the necessary dependencies:
      ```bash
      npm install
@@ -34,7 +37,7 @@ Thank you for your interest in contributing to **VisiUI**! VisiUI is an open-sou
   ```bash
   npx prettier . --write
   ```
-- **Check that everything works correctly**: Run ```npm run build```, ```npm run dev``` and ```npm run lint``` to ensure that your code hasn't introduced any errors.
+- **Check that everything works correctly**: Run `npm run build`, `npm run dev` and `npm run lint` to ensure that your code hasn't introduced any errors.
 - **Comment your code**: Add helpful comments to explain the reasoning behind complex or non-obvious implementations.
 
 ## React Components
@@ -52,9 +55,11 @@ Thank you for your interest in contributing to **VisiUI**! VisiUI is an open-sou
 - **Reviews and Feedback**: Be open to reviews and feedback. Maintaining code quality is a shared goal.
 
 ## The point of contributions for now
+
 For now, we are prioritizing the website, so contributions should focus on the VisiUI website.
 
 ## Learn More
+
 - [NextJS Documentation](https://nextjs.org/docs)
 - [JavaScript Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [ReactJS Documentation](https://react.dev/learn)
