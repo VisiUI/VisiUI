@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../../public/visiui3.png";
+import logo from "../../public/visiui8.png";
 
 const Footer = () => {
   return (
