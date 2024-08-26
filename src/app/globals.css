@@ -1,37 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-::selection {
-  color: #fff;
-  background-color: #8B53FF;
-}
-
-@layer base {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  a,
-  span,
-  li {
-    @apply text-gray-100;
-  }
-
-  a {
-    @apply text-gray-100;
-  }
-
-  .text-muted {
-    @apply text-gray-400;
-  }
-
-  input,
-  textarea,
-  select {
-    @apply text-gray-100;
-  }
-}
