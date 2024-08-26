@@ -16,7 +16,7 @@ const Footer = () => {
                 height={50}
                 className="h-16 w-auto"
               />
-              <span className="self-center text-3xl font-semibold whitespace-nowrap text-white">
+              <span className="self-center text-3xl font-semibold whitespace-nowrap text-white" style={{ letterSpacing: "1.5px" }}>
                 VisiUI
               </span>
             </a>
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-white">
+              <h2 className="mb-6 text-sm font-semibold uppercase text-white" style={{ letterSpacing: "1.5px" }}>
                 Resources
               </h2>
               <ul className="text-white font-medium">
@@ -46,7 +46,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-white">
+              <h2 className="mb-6 text-sm font-semibold uppercase text-white" style={{ letterSpacing: "1.5px" }}>
                 Follow us
               </h2>
               <ul className="text-white font-medium">
@@ -63,7 +63,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-white">
+              <h2 className="mb-6 text-sm font-semibold uppercase text-white" style={{ letterSpacing: "1.5px" }}>
                 Legal
               </h2>
               <ul className="text-white font-medium">

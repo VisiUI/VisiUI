@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <Link href="/" className="flex items-center group">
           <Logo />
-          <span className="ml-2 text-2xl font-bold text-cyan-300 group-hover:text-cyan-400 transition-colors duration-300">VISIUI</span>
+          <span className="ml-2 text-2xl font-bold text-cyan-300 group-hover:text-cyan-400 transition-colors duration-300" style={{ letterSpacing: "1.5px" }}>VISIUI</span>
         </Link>
         <div className="flex items-center space-x-6">
           <Link href="/" className={`${linkClasses('/')} ${activeBorder('/')}`}>
