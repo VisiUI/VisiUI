@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
     return `px-4 py-2 rounded-full transition-all duration-300 relative ${
       isActive 
         ? 'text-pink-400' 
-        : 'hover:text-cyan-300'
+        : 'hover:text-purple-500'
     }`;
   };
 
@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <Link href="/" className="flex items-center group">
           <Logo />
-          <span className="ml-2 text-2xl font-bold text-cyan-300 group-hover:text-cyan-400 transition-colors duration-300" style={{ letterSpacing: "1.5px" }}>VISIUI</span>
+          <span className="ml-2 text-2xl font-bold text-purple-500 group-hover:text-purple-600 transition-colors duration-300" style={{ letterSpacing: "1.5px" }}>VISIUI</span>
         </Link>
         <div className="flex items-center space-x-6">
           <Link href="/" className={`${linkClasses('/')} ${activeBorder('/')}`}>

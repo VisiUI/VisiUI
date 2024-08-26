@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  
+::selection {
+  color: #fff;
+  background-color: #8B53FF;
+}
 
+@layer base {
   h1,
   h2,
   h3,
