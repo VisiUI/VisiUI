@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import localFont from 'next/font/local';
 import { ThemeProviders } from "@/utils/ThemeProviders";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const colvetica = localFont({ 
+  src: '../../public/fonts/Colvetica.ttf',
+  variable: '--font-colvetica'
+});
 
 export const metadata: Metadata = {
   title: "VisiUI",
@@ -17,7 +22,6 @@ export const metadata: Metadata = {
     description:
       "VisiUI provides reusable and customizable React components to simplify UI development.",
     url: "https://visi-ui.vercel.app/",
-
     images: [
       {
         url: "https://visi-ui.vercel.app/api/og",
@@ -36,7 +40,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${inter.className}`}>
+      <body className={`${inter.className} ${colvetica.variable}`}>
         <ThemeProviders>
           <main>{children}</main>
         </ThemeProviders>
