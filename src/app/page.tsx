@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import Endpoint from "@/data-components/Endpoint";
 import Nav from "@/ui-components/Navbar";
 import Footer from "@/ui-components/footer";
 import Hero from "@/ui-components/Hero";
