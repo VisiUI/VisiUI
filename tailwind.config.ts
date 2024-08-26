@@ -14,7 +14,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        colvetica: ['var(--font-colvetica)', 'sans-serif'],
+        colvetica: ["var(--font-colvetica)", "sans-serif"],
       },
     },
   },

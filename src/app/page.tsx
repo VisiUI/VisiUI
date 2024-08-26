@@ -5,7 +5,7 @@ import Nav from "@/ui-components/Navbar";
 import Footer from "@/ui-components/footer";
 import Hero from "@/ui-components/Hero";
 import "../app/globals.css";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 
 //const sampleValue = new Endpoint<string>({ value: "Edit me!" });
 
@@ -15,7 +15,7 @@ export default function Home() {
       <Nav />
       {/* Main content */}
       <div className="flex flex-col items-center justify-center flex-grow text-white"></div>
-      <Hero/>
+      <Hero />
       <Footer />
 
       <Analytics />
