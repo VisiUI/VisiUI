@@ -27,9 +27,9 @@ export function WhyChooseUsBox({ title, description }: WhyChooseUsProps) {
         >
           {description}
         </CardItem>
-        <CardItem translateZ="100" className="w-full mt-4">
-          {/**Image */}
-        </CardItem>
+        {/**        <CardItem translateZ="100" className="w-full mt-4">
+         * Image
+        </CardItem> */}
         <div className="flex justify-between items-center mt-20">
           <CardItem
             translateZ={20}
@@ -56,7 +56,9 @@ export function WhyChooseUsBox({ title, description }: WhyChooseUsProps) {
 export default function WhyChooseUs() {
   return (
     <div>
-        <h1 className="text-white text-center text-7xl font-colvetica">Why Choose Us</h1>
+      <h1 className="text-white text-center text-7xl font-colvetica">
+        Why Choose Us
+      </h1>
       <div className="flex flex-wrap gap-4 justify-center medium-large:gap-small">
         <WhyChooseUsBox
           title="Boost Your Productivity"
