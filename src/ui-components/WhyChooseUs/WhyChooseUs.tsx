@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./3DCard";
 import Link from "next/link";
