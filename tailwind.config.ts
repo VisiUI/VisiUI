@@ -16,9 +16,24 @@ const config: Config = {
       fontFamily: {
         colvetica: ["var(--font-colvetica)", "sans-serif"],
       },
+      screens: {
+        'custom-874': '874px',
+        'larger': '1257px',
+        'medium-large': {'max': '975px'},
+        'medium': {'min': '674px'}
+      },
+      width: {
+        'large': '1030px',
+      },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(to right, #DB00FF, #0D00FF)',
+      },
+      gap: {
+        'small': '-80px',
+      },
     },
   },
-  plugins: [nextui()],
+  plugins: [],
 };
 
 export default config;

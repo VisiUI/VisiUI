@@ -1,8 +1,9 @@
 import React from "react";
+import './styles/About.scss'
 
 function About() {
   return (
-    <div>
+    <div className="aboutContainer">
       <div>
         <h3
           style={{

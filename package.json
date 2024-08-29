@@ -11,6 +11,7 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
+    "@formspree/react": "^2.5.1",
     "@nextui-org/navbar": "^2.0.36",
     "@nextui-org/react": "^2.4.6",
     "@nextui-org/system": "^2.2.5",
@@ -18,7 +19,10 @@
     "@tabler/icons-react": "^3.12.0",
     "@vercel/analytics": "^1.3.1",
     "@vercel/og": "^0.6.2",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
     "framer-motion": "^11.3.30",
+    "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.5",
     "next-themes": "^0.3.0",
     "react": "^18",
@@ -26,6 +30,7 @@
     "react-icons": "^5.3.0",
     "sass": "^1.77.8",
     "sharp": "^0.33.5",
+    "tailwind-merge": "^2.5.2",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {

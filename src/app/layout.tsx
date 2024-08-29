@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
-import { ThemeProviders } from "@/utils/ThemeProviders";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -41,9 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} ${colvetica.variable}`}>
-        <ThemeProviders>
           <main>{children}</main>
-        </ThemeProviders>
       </body>
     </html>
   );
