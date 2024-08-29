@@ -12,8 +12,6 @@ import { Analytics } from "@vercel/analytics/react";
 
 //const sampleValue = new Endpoint<string>({ value: "Edit me!" });
 
-throw new Error("Sentry Example Frontend Error");
-
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-black">
