@@ -6,7 +6,7 @@ import { FloatingNavDemo } from "@/ui-components/Navbar/FloatingNavDemo";
 import About from "@/ui-components/About/About";
 import Footer from "../ui-components/Footer/footer";
 import Hero from "@/ui-components/Hero/Hero";
-import WhyChooseUs from "@/ui-components/WhatWeOffer/WhyChooseUs";
+import WhyChooseUs from "@/ui-components/WhyChooseUs/WhyChooseUs";
 import "../app/globals.css";
 import { Analytics } from "@vercel/analytics/react";
 
