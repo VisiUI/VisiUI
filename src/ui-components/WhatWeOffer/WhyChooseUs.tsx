@@ -10,7 +10,7 @@ interface WhyChooseUsProps {
   description: string;
 }
 
-export function WhyChooseUs({ title, description }: WhyChooseUsProps) {
+export function WhyChooseUsBox({ title, description }: WhyChooseUsProps) {
   return (
     <CardContainer className="inter-var">
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
@@ -53,24 +53,24 @@ export function WhyChooseUs({ title, description }: WhyChooseUsProps) {
   );
 }
 
-export default function WhatWeOffer() {
+export default function WhyChooseUs() {
   return (
     <div>
         <h1 className="text-white text-center text-7xl font-colvetica">Why Choose Us</h1>
       <div className="flex flex-wrap gap-4 justify-center medium-large:gap-small">
-        <WhatWeOfferBox
+        <WhyChooseUsBox
           title="Boost Your Productivity"
           description="Our pre-built, highly customizable components save you time, allowing you to focus on building features rather than reinventing the wheel."
         />
-        <WhatWeOfferBox
+        <WhyChooseUsBox
           title="Improve Code Quality"
           description="Achieve consistent and maintainable code across your projects. VisiUI promotes best practices, making your code easier to read, understand, and scale."
         />
-        <WhatWeOfferBox
+        <WhyChooseUsBox
           title="Seamless React Integration"
           description="Designed specifically for React, VisiUI components integrate smoothly with your existing stack, reducing setup time and improving development flow."
         />
-        <WhatWeOfferBox
+        <WhyChooseUsBox
           title="Opensource Project"
           description="VisiUI is a beginner-friendly project where even less experienced developers can contribute and offer help!"
         />
