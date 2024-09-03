@@ -1,0 +1,104 @@
+{
+  "aboutContent": {
+    "heading": "What is VisiUI",
+    "description": "Design For Scalability And Customization, VisiUI Offers A Comprehensive Suite Of Components That Seamlessly Integrate Into Your React Projects, Making It The Perfect Tool For Developers, Startups, And Companies Alike"
+  },
+  "WhatWeOfferInfo": {
+    "heading": "What We Offer",
+    "sections": [
+      {
+        "id": 1,
+        "subheading": "Comprehensive Component Library",
+        "description": "Explore a wide range of customizable components designed to fit seamlessly into any React application.",
+        "data_illustration": ""
+      },
+      {
+        "id": 2,
+        "subheading": "Easy Integration and Customization",
+        "description": "Enjoy a smooth, hassle-free setup with detailed documentation and intuitive APls that allow you to customize every aspect to match your brand's style"
+      },
+      {
+        "id": 3,
+        "subheading": "Consistent Updates and Support",
+        "description": "Stay ahead of the curve with regular updates that bring new components and features, enhanced performance, and security improvements."
+      },
+      {
+        "id": 4,
+        "subheading": "Reusability Across Projects",
+        "description": "Reuse components across different projects with minimal modifications, ensuring efficiency and consistency."
+      },
+      {
+        "id": 5,
+        "subheading": "Optimized Development Workflow",
+        "description": "Enhance your team's workflow with tools designed to speed up development and reduce release times."
+      },
+      {
+        "id": 6,
+        "subheading": "Streamlined Ul Consistency",
+        "description": "Maintain visual consistency throughout your project with uniform and well-designed components."
+      },
+      {
+        "id": 7,
+        "subheading": "Robust Prop System",
+        "description": "Deeply customize your components through a flexible and powerful prop system, offering granular control."
+      },
+      {
+        "id": 8,
+        "subheading": "Performance-Optimized Components",
+        "description": "Our components are optimized for high performance, reducing client-side load and improving user experience."
+      },
+      {
+        "id": 9,
+        "subheading": "Cross-Browser Compatibility",
+        "description": "Ensure all components work seamlessly across major browsers, providing complete coverage."
+      },
+      {
+        "id": 10,
+        "subheading": "Mobile-First Design",
+        "description": "Components are designed with a mobile-first approach, ensuring your applications are responsive and user-friendly on mobile devices."
+      },
+      {
+        "id": 11,
+        "subheading": "Developer-Friendly APIs",
+        "description": "Simplify development with intuitive and well-documented APls, designed to be easily understandable and usable."
+      },
+      {
+        "id": 12,
+        "subheading": "Open-Source Flexibility",
+        "description": "Leverage the open-source nature of the library to contribute, customize, and adapt components to your"
+      }
+    ]
+  },
+  "WhyChooseUsInfo": {
+    "heading": "Why Choose Us",
+    "sections": [
+      {
+        "subheading": "Boost Your Productivity",
+        "description": "Our pre-built, highly customizable components save you time, allowing you to focus on building features rather than reinventing the wheel"
+      },
+      {
+        "subheading": "Improve code Qvality",
+        "description": "Achieve consistent and maintainable code across your project, making your code easier to read, undestand, and scale"
+      },
+      {
+        "subheading": "Seamless React Integration",
+        "description": "Designed Specifically for React, VisiUI components Integrate smoothly with your exisiting stack, reducing setup time and improving development flow."
+      },
+      {
+        "subheading": "Opensource Project",
+        "description": "VisiUI is a begginer-friendly project where even less experienced developers can contribute and offer help"
+      }
+    ]
+  },
+  "inAction": {
+    "heading": "See VisiUI in Action"
+  },
+  "StartNow": {
+    "heading": "Start Building with VisiUI",
+    "buttonText": "Get Started"
+  },
+  "CallForAction": {
+    "description": "VisiUl aims to be a library with pre-built components that everyone can use with ReactJS. These components are editable and can be used as needed, making Front-End Development easier than ever.",
+    "buttonText": "Get Started"
+  }
+}
