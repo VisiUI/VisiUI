@@ -11,12 +11,12 @@ export const FeatureContainer: React.FC<FeatureContainerProps> = ({
   return (
     <section
       className={cn(
-        "flex flex-wrap w-screen items-center justify-center bg-[white]",
+        "flex flex-wrap w-screen items-center justify-center bg-[black]",
       )}
     >
       <div
         className={cn(
-          "flex flex-wrap flex-col w-large items-center justify-between rounded-xl",
+          "flex flex-wrap flex-col w-large items-center justify-between bg-[white] rounded-xl",
         )}
       >
         {children}
@@ -33,7 +33,7 @@ export const FeatureHeader: React.FC<FeatureHeaderProps> = ({ children }) => {
   return (
     <div
       className={cn(
-        "flex font-colvetica text-7xl text-transparent bg-clip-text bg-custom-gradient",
+        "flex font-colvetica text-7xl text-transparent bg-clip-text bg-custom-gradient mt-5",
       )}
     >
       {children}

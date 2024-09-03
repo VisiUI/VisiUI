@@ -21,15 +21,13 @@ const Features: React.FC<FeatureProps> = ({ content }) => {
   return (
     <FeatureContainer>
       <FeatureHeader>{content.heading}</FeatureHeader>
+
       <div
-        className={cn(
-          "grid grid-cols-[repeat(3,minmax(0px,1fr))] gap-small my-10")}>
+        className={cn("grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 m-5")}>
         {FeatureItems.map((FeatureItem, index) => (
           <div
-            key={index}
-            className={cn("flex flex-col justify-items-center p-4")}>
+            className={cn("flex flex-col justify-items-center p-2")}>
             <div
-              key={index}
               className={cn(
                 "flex justify-items-center items-center p-1 font-colvetica",
               )}
@@ -37,8 +35,7 @@ const Features: React.FC<FeatureProps> = ({ content }) => {
               {FeatureItem.subheading}
             </div>
             <div
-              key={index}
-              className={cn("flex p-1")}>
+              className={cn("flex justify-items-center items-center p-1 inter-var")}>
               {FeatureItem.description}
             </div>
           </div>
