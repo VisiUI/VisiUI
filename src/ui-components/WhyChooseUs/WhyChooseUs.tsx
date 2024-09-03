@@ -2,7 +2,10 @@
 
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./3DCard";
+import { TextGenerateEffect } from "@/ui/text-generate-effect";
 import Link from "next/link";
+
+const words = `Why Choose Us (Why Not?)`;
 
 interface WhyChooseUsProps {
   title: string;
@@ -74,7 +77,7 @@ export default function WhyChooseUs() {
   return (
     <div>
       <h1 className="text-white text-center text-7xl font-colvetica">
-        Why Choose Us
+        <TextGenerateEffect words={words}/>
       </h1>
       <div className="flex flex-wrap gap-4 justify-center medium-large:gap-small">
         {features.map((feature, index) => (
