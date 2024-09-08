@@ -10,7 +10,7 @@ _Add more context to describe the changes..._
 
 [Example](www.google.com)
 
-### Checks
+### Required Checks
 
 - [ ] No errors
 - [ ] No Bugs

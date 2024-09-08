@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from '../../public/visiui8.png';
+import logo from "../../public/visiui8.png";
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between items-start">
           {/* Logo */}
           <div className="w-full custom-874:w-1/5 mb-4 custom-874:mb-0">
-            <Image src={logo} alt="VisiUI Logo" width={100} height={100}/>
+            <Image src={logo} alt="VisiUI Logo" width={100} height={100} />
             <span
               className="self-center text-3xl font-semibold whitespace-nowrap text-black"
               style={{ letterSpacing: "0.5px", fontStyle: "oblique" }}
