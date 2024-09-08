@@ -40,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} ${colvetica.variable}`}>
-          <main>{children}</main>
+        <main>{children}</main>
       </body>
     </html>
   );
