@@ -16,7 +16,3 @@ The main goal of **VisiUI** is to provide a reliable set of tools for React deve
 - **Customizability**: Each component can be customized through props, allowing you to tailor them to your project's specific needs.
 - **Easy Integration**: Import the components directly into your React application and start using them immediately.
 - **Development Efficiency**: Reduce development time by reusing well-tested and well-documented components.
-
-## Installation
-
-Will add the possibility to use it with npm (and maybe yarn)
