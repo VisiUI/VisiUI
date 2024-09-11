@@ -22,6 +22,7 @@ const config: Config = {
       },
       screens: {
         "custom-874": "874px",
+        "mobile-large": { max: '444px' },
         larger: "1257px",
         "medium-large": { max: "975px" },
         "medium-ls": { max: "779px" },

@@ -25,7 +25,7 @@ export default function Hero() {
             href="/"
             className={buttonVariants({ className: "px-6", size: "lg" })}
           >
-            Get Stared
+            Docs
           </Link>
         </div>
         <Link
