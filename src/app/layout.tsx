@@ -4,10 +4,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
-const colvetica = localFont({
-  src: "../../public/fonts/Colvetica.ttf",
-  variable: "--font-colvetica",
-});
 
 export const metadata: Metadata = {
   title: "VisiUI",
@@ -39,7 +35,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${colvetica.variable}`}>
+      <body className={`${inter.className}`}>
         <main>{children}</main>
       </body>
     </html>

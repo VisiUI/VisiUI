@@ -15,3 +15,12 @@
     @apply text-black bg-transparent;
   }
 }
+
+@font-face {
+  font-family: "InterRegular";
+  src: url("../app/assets/Inter-Regular.otf");
+}
+
+body {
+  font-family: "InterRegular";
+}
