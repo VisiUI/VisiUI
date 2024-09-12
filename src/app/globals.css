@@ -9,4 +9,27 @@
 
 body {
   font-family: "InterRegular";
+   
 }
+
+::-webkit-scrollbar {
+  width: 6px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #424047; 
+ 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c5c3c3; 
+  
+  
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+

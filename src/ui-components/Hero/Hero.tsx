@@ -4,7 +4,7 @@ import { buttonVariants } from "@/ui/button";
 
 export default function Hero() {
   return (
-    <div className="flex sm:min-h-[91vh] min-h-[88vh] flex-col items-center justify-center text-center px-2 py-8 text-white h-[100vh]">
+    <div className="flex sm:min-h-[91vh] min-h-[88vh] flex-col items-center justify-center text-center px-2 py-8 text-white h-[100vh] ">
       <Link
         href="https://github.com/VisiUI/VisiUI"
         target="_blank"

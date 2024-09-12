@@ -56,6 +56,20 @@ const config: Config = {
         },
       );
     },
+    function ({ addComponents }:any) {
+      const addComponentsType = addComponents as (components: Record<string, any>) => void;
+      addComponentsType({
+        '.scrollbar-hidden': {
+          'scrollbar-width': 'none', /* Hide scrollbar in Firefox */
+          '-ms-overflow-style': 'none', /* Hide scrollbar in Edge */
+        },
+        '.scrollbar-hidden::-webkit-scrollbar': {
+          display: 'none', /* Hide scrollbar in WebKit browsers (Chrome, Safari) */
+        },
+      });
+    },
+
+    require('tailwind-scrollbar')({ nocompatible: true }),
   ],
 };
 
