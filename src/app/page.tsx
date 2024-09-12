@@ -10,13 +10,14 @@ import AfterHeader from "@/ui-components/AfterHeader";
 
 export default function Home() {
   const WhatWeOffer = homepageInfo.WhatWeOfferInfo;
-
+  
   return (
-    <div className="flex flex-col min-h-screen bg-[#0f0f0f]">
+    <div className="flex flex-col min-h-screen  bg-black   "   >
       <FloatingNavDemo />
       <Hero />
       <AfterHeader />
       <Analytics />
+     
     </div>
   );
 }
