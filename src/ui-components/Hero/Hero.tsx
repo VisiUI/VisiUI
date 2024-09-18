@@ -22,7 +22,7 @@ export default function Hero() {
       <div className="flex flex-row items-center gap-5">
         <div className="bg-white text-black rounded-md">
           <Link
-            href="https://docs-visi-ui.vercel.app/" target="_blank"
+            href="https://docs.visiui.org/docs" target="_blank"
             className={buttonVariants({ className: "px-6", size: "lg" })}
           >
             Docs
